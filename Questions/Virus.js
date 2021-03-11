@@ -1,3 +1,5 @@
+// 백준 2606번 바이러스 문제
+
 let total_nodes = 7; // 7개 노드
 let total_pairs = 6; // 6쌍 노드
 
