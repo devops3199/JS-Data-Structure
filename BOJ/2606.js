@@ -1,9 +1,10 @@
-// 백준 2606번 바이러스 문제
+// BOJ 백준 2606번
+// Graph Search by using BFS
 
-let total_nodes = 7; // 7개 노드
-let total_pairs = 6; // 6쌍 노드
+let total_nodes = 7;
+let total_pairs = 6;
 
-let pair = [[1,2], [2,3], [1,5], [5,2], [5,6], [4,7]];
+let pair = [[1,2], [2,3], [1,5], [5,2], [5,6], [4,7]]; // 6 pairs
 
 let computer_dictionary = {};
 
