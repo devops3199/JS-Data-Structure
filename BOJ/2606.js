@@ -24,6 +24,8 @@ for(let i = 0; i < total_pairs; i++) {
     computer_dictionary[b].add(a);
 }
 
+console.log(computer_dictionary);
+
 // BFS
 while (queue.length) {
     current = queue.pop(0);
