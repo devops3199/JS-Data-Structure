@@ -7,3 +7,14 @@
 
 */
 
+console.log(sum(3,4));
+
+// 함수 선언식 (호이스팅 시 function sum(x, y) { return x + y; };)
+function sum (x, y) {
+    return x + y;
+};
+
+// 함수 표현식 (호이스팅 시 var sum;)
+var sum = function (x, y) {
+
+};
