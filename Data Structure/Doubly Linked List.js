@@ -47,11 +47,28 @@ class DoublyLinkedList {
         this.length--;
         return pop_node
     }
+
+    shift() {
+        if(this.length === 0) return undefined;
+
+        let oldhead = this.head;
+
+        if(this.length === 1) {
+            this.head = null;
+            this.tail = null;
+        }
+
+        this.head = oldhead.next;
+        this.head.prev = null;
+        oldhead.next = null;
+        
+        this.length--;
+        return oldhead;
+    }
 }
 
 let dlink = new DoublyLinkedList();
 dlink.push(1);
 dlink.push(2);
 dlink.push(3);
-console.log(dlink.pop());
-console.log(dlink);
+console.log(dlink.shift());
