@@ -5,3 +5,8 @@
 
 ### Linear Probing
 + When we find a collision, we search through the array to find the next empty slot.
+
+## Big O of Hash Tables
++ Insert: O(1)
++ Deletion: O(1)
++ Access: O(1)
